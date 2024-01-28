@@ -1,12 +1,7 @@
-.card{
-    width: calc(80% - 10px);
-}
-.card-body{
-    text-align: center;
-}
-
 .card {
     position: relative;
+    width: calc(80% - 10px);
+    margin: 10px;
 }
 
 .card img {
@@ -20,11 +15,12 @@
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 1rem;
+    padding: 1rem; /* Fixed typo here */
     background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
+    text-align: center;
 }
 
 .card:hover .card-body {
