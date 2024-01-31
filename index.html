@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-HORYZON '24</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" defer integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" defer integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/card.css">
-    
+    <style>
+        .nav-item .nav-link .active { background-color: red;}
+    </style>
 
     <!-- Bootstrap CSS -->
 </head>
@@ -19,7 +26,7 @@
     <nav class="navbar navbar-expand-lg navbar-custom p-4 sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="./img/logo.png" alt="Bootstrap" width="100" height="">
+                <img src="./img/icons/logo.png" alt="E-Horyzon '24" width="100" height="">
             </a>
             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="toggler-icon top-bar"></span>
@@ -53,151 +60,242 @@
         </div>
     </section>
     <!-- Events Section -->
-    <section>
+    <section id="events">
         <!-- Categories Nav -->
-        <h1 id="events" class="text-center">Events</h1><br>
+        <h1  class="text-center">Events</h1><br>
         <div class="d-flex justify-content-center">
-            <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="horizontal">
-                <button class="nav-link active" id="v-pills-techno-tab" data-bs-toggle="pill" data-bs-target="#v-pills-techno" type="button" role="tab" aria-controls="v-pills-techno" aria-selected="true" >&#128187;</button>
-                <button class="nav-link" id="v-pills-thiraiTrivia-tab" data-bs-toggle="pill" data-bs-target="#v-pills-thiraiTrivia" type="button" role="tab" aria-controls="v-pills-thiraiTrivia" aria-selected="false">&#128214;</button>
-                <button class="nav-link" id="v-pills-fabex-tab" data-bs-toggle="pill" data-bs-target="#v-pills-fabex" type="button" role="tab" aria-controls="v-pills-fabex" aria-selected="false">&#128736;</button>
-                <button class="nav-link" id="v-pills-techrealm-tab" data-bs-toggle="pill" data-bs-target="#v-pills-techrealm" type="button" role="tab" aria-controls="v-pills-techrealm" aria-selected="false">&#128737;</button>
-            </div>
+            <ul class="nav nav-pills justify-content-center" id="v-pills-tab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active"  id="v-pills-techno-tab" data-bs-toggle="pill" data-bs-target="#v-pills-techno" role="tab" aria-controls="v-pills-techno" role="tab" aria-selected="true">
+                    <img src="./img/icons/1x/Technovation.png" alt="" width="50px" data-bs-toggle="tooltip" data-bs-title="Technovation">
+                  </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link rounded-circle" id="v-pills-techrealm-tab" data-bs-toggle="pill" data-bs-target="#v-pills-techrealm" type="button" role="tab" aria-controls="v-pills-techrealm" aria-selected="false">
+                        <img src="./img/icons/1x/tech realm.png" alt="" width="50px" data-bs-toggle="tooltip" data-bs-title="Tech Realm">
+                    </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link rounded-circle" id="v-pills-technopreneur-tab" data-bs-toggle="pill" data-bs-target="#v-pills-technopreneur" aria-controls="v-pills-technopreneur" role="tab" aria-selected="false">
+                    <img src="./img/icons/1x/technopreneur.png" alt="" width="50px" data-bs-toggle="tooltip" data-bs-title="Technopreneur">
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link rounded-circle" id="v-pills-thiraiTrivia-tab" data-bs-toggle="pill" data-bs-target="#v-pills-thiraiTrivia" aria-controls="v-pills-thiraiTrivia" role="tab" aria-selected="false">
+                    <img src="./img/icons/1x/thirai-trivia.png" alt="" width="50px" data-bs-toggle="tooltip" data-bs-title="திரை - Trivia">
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link rounded-circle" id="v-pills-fabex-tab" data-bs-toggle="pill" data-bs-target="#v-pills-fabex" type="button" role="tab" aria-controls="v-pills-fabex" aria-selected="false">
+                    <img src="./img/icons/1x/fabEx.png" alt="" width="50px" data-bs-toggle="tooltip" data-bs-title="FabEX">
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link rounded-circle" id="v-pills-fabex-tab" data-bs-toggle="pill" data-bs-target="#v-pills-fabex" type="button" role="tab" aria-controls="v-pills-fabex" aria-selected="false">
+                    <img src="./img/icons/1x/talentia.png" alt="" width="50px" data-bs-toggle="tooltip" data-bs-title="Talentia">
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link rounded-circle" id="v-pills-fabex-tab" data-bs-toggle="pill" data-bs-target="#v-pills-fabex" type="button" role="tab" aria-controls="v-pills-fabex" aria-selected="false">
+                    <img src="./img/icons/1x/udayami bazaar.png" alt="" width="50px" data-bs-toggle="tooltip" data-bs-title="Udayami Bazaar">
+                  </a>
+                </li>
+              </ul>
+              
+                   
         </div>
             <!-- Event Cards -->
-        <div class="tab-content m-5 d-flex justify-content-center">
+        <div class="tab-content m-3 d-flex justify-content-center">
                 <!-- Sample Event Card (Repeat for each event) -->
             <div class="tab-pane fade show active" id="v-pills-techno" role="tabpanel" aria-labelledby="v-pills-techno-tab" tabindex="0">
+                <h1 class="text-center m-3 p-3">Technovation</h1>
+                    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-1 g-3 justify-content-center align-items-center align-content-center">
+                        <div class="col container_foto ">
+                            <div class="ver_mas text-center">
+                                <a href="">Register</a>
+                             </div>
+                             <article class="text-left">
+                                <h2>Tech talk</h2>
+                                <h4>Speak about upcoming tech trends</h4>
+                             </article>
+                             <img src="https://img-aws.ehowcdn.com/300x300/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
+                             
+                        </div>
+                        <div class="col container_foto ">
+                            <div class="ver_mas text-center">
+                                <a href="">Register</a>
+                             </div>
+                             <article class="text-left">
+                                <h2>Ideathon</h2>
+                                <h4>Propose inventive problem-solving approach</h4>
+                             </article>
+                             <img src="https://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
+                        </div>
+                        <div class="col container_foto ">
+                            <div class="ver_mas text-center">
+                                <a href="">Register</a>
+                             </div>
+                             <article class="text-left">
+                                <h2>Business Idea</h2>
+                                <h4>Articulate your innovative business concept</h4>
+                             </article>
+                             <img src="https://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
+                        </div>
+                    </div>
+            </div>
 
-                    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-3 justify-content-center align-items-center align-content-center">
-                        <div class="col container_foto ">
-                            <!-- <div class="ver_mas text-center">
-                                <span>dfgh</span>
-                             </div> -->
-                             <article class="text-left">
-                                <h2>TÍTULO DE <br>LA IMAGEN</h2>
-                                <h4>Descripción corta de la imagen en cuestión</h4>
-                             </article>
-                             <img src="https://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
-                             <button class="ver_mas_button">
-                                <span>Click me</span>
-                            </button>
-                        </div>
+            <div class="tab-pane fade show" id="v-pills-techrealm" role="tabpanel" aria-labelledby="v-pills-techrealm-tab" tabindex="0">
+                <h1 class="text-center m-3 p-3">Tech Realm</h1>
+                    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-1 g-3 justify-content-center align-items-center align-content-center">
                         <div class="col container_foto ">
                             <div class="ver_mas text-center">
-                                <span>dfgh</span>
+                                <a href="">Register</a>
                              </div>
                              <article class="text-left">
-                                <h2>TÍTULO DE <br>LA IMAGEN</h2>
-                                <h4>Descripción corta de la imagen en cuestión</h4>
+                                <h2>Mechanical CAD Modeling</h2>
+                                <h4>Ideas Sharing with CAD</h4>
                              </article>
                              <img src="https://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
                         </div>
                         <div class="col container_foto ">
                             <div class="ver_mas text-center">
-                                <span>dfgh</span>
+                                <a href="">Register</a>
                              </div>
                              <article class="text-left">
-                                <h2>TÍTULO DE <br>LA IMAGEN</h2>
-                                <h4>Descripción corta de la imagen en cuestión</h4>
+                                <h2>Electical CAD Modeling</h2>
+                                <h4>Crafting PCB Designs in Proteus/Eagle</h4>
                              </article>
                              <img src="https://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
                         </div>
                         <div class="col container_foto ">
                             <div class="ver_mas text-center">
-                                <span>dfgh</span>
+                                <a href="">Register</a>
                              </div>
                              <article class="text-left">
-                                <h2>TÍTULO DE <br>LA IMAGEN</h2>
-                                <h4>Descripción corta de la imagen en cuestión</h4>
+                                <h2>UI / UX Design</h2>
+                                <h4>Crafting Tailored UI/UX with Figma/Blender</h4>
                              </article>
                              <img src="https://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
                         </div>
                         <div class="col container_foto ">
                             <div class="ver_mas text-center">
-                                <span>dfgh</span>
+                                <a href="">Register</a>
                              </div>
                              <article class="text-left">
-                                <h2>TÍTULO DE <br>LA IMAGEN</h2>
-                                <h4>Descripción corta de la imagen en cuestión</h4>
+                                <h2>Web/ App Development</h2>
+                                <h4>Demonstrating Software Proficiency through Development</h4>
                              </article>
                              <img src="https://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
                         </div>
                         <div class="col container_foto ">
                             <div class="ver_mas text-center">
-                                <span>dfgh</span>
+                                <a href="">Register</a>
                              </div>
                              <article class="text-left">
-                                <h2>TÍTULO DE <br>LA IMAGEN</h2>
-                                <h4>Descripción corta de la imagen en cuestión</h4>
+                                <h2>Generative Design</h2>
+                                <h4>Architectural Mastery with BIM, 3DS Max, SketchUp</h4>
                              </article>
                              <img src="https://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
                         </div>
                         
                     </div>
             </div>
-
-            <div class="tab-pane fade show" id="v-pills-techrealm" role="tabpanel" aria-labelledby="v-pills-techrealm-tab" tabindex="0">
-                <div style="display: flex; justify-content: center;">
-                    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-3 justify-content-center align-items-center border">
-                        <div class="col">
-                            <a href="..." target="_blank">
-                                <div class="card h-100 d-flex align-items-center">
-                                    <img src="./img/E-Hory.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Mechanical CAD</h5>
-                                        <p class="card-text">...</p>
-                                    </div>
-                                </div>
-                            </a>
+            <!-- <div class="tab-pane fade show" id="#v-pills-techrealm" role="tabpanel" aria-labelledby="#v-pills-techrealm-tab" tabindex="1"> -->
+            <div class="tab-pane fade show" id="v-pills-technopreneur" role="tabpanel" aria-labelledby="v-pills-technopreneur-tab" tabindex="2">
+                <h1 class="text-center m-3 p-3">Technopreneur</h1>
+                    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-3 justify-content-center align-items-center align-content-center">
+                        <div class="col container_foto ">
+                            <div class="ver_mas text-center">
+                                <a href="">Register</a>
+                             </div>
+                             <article class="text-left">
+                                <h2>IPL Auction</h2>
+                                <h4></h4>
+                             </article>
+                             <img src="https://img-aws.ehowcdn.com/300x300/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
+                             
                         </div>
-                        <div class="col">
-                            <a href="..." target="_blank">
-                                <div class="card h-100">
-                                    <img src="./img/E-Hory.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Mechanical CAD</h5>
-                                        <p class="card-text">...</p>
-                                    </div>
-                                </div>
-                            </a>
+                        <div class="col container_foto ">
+                            <div class="ver_mas text-center">
+                                <a href="">Register</a>
+                             </div>
+                             <article class="text-left">
+                                <h2>Corporates</h2>
+                                <h4>Empowering Teams Through Collaborative Activities</h4>
+                             </article>
+                             <img src="https://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
                         </div>
-                        <div class="col">
-                            <a href="..." target="_blank">
-                                <div class="card h-100">
-                                    <img src="./img/E-Hory.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Mechanical CAD</h5>
-                                        <p class="card-text">...</p>
-                                    </div>
-                                </div>
-                            </a>
+                        <div class="col container_foto ">
+                            <div class="ver_mas text-center">
+                                <a href="">Register</a>
+                             </div>
+                             <article class="text-left">
+                                <h2>Biz Quiz</h2>
+                                <h4>Entrepreneurial Knowledge Check</h4>
+                             </article>
+                             <img src="https://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
                         </div>
-                        <div class="col">
-                            <a href="..." target="_blank">
-                                <div class="card h-100">
-                                    <img src="./img/E-Hory.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Mechanical CAD</h5>
-                                        <p class="card-text">...</p>
-                                    </div>
-                                </div>
-                            </a>
+                        <div class="col container_foto ">
+                            <div class="ver_mas text-center">
+                                <a href="">Register</a>
+                             </div>
+                             <article class="text-left">
+                                <h2>Flip Flop</h2>
+                                <h4>Exploring Pros and Cons</h4>
+                             </article>
+                             <img src="https://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
                         </div>
-                        <div class="col">
-                            <a href="..." target="_blank">
-                                <div class="card h-100">
-                                    <img src="./img/E-Hory.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Mechanical CAD</h5>
-                                        <p class="card-text">...</p>
-                                    </div>
-                                </div>
-                            </a>
+                        <div class="col container_foto ">
+                            <div class="ver_mas text-center">
+                                <a href="">Register</a>
+                             </div>
+                             <article class="text-left">
+                                <h2>Ad Zap</h2>
+                                <h4>Sell me this pen</h4>
+                             </article>
+                             <img src="https://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
                         </div>
-                        <!-- Repeat the above card structure for additional cards -->
+                        <div class="col container_foto ">
+                            <div class="ver_mas text-center">
+                                <a href="">Register</a>
+                             </div>
+                             <article class="text-left">
+                                <h2>Stockz and Shares</h2>
+                                <h4>Stocks & Shares Bootcamp: Investment Strategies</h4>
+                             </article>
+                             <img src="https://img-aws.ehowcdn.com/400x400/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
+                        </div>
                     </div>
-                </div>
+            </div>
+
+            <div class="tab-pane fade show" id="v-pills-thiraiTrivia" role="tabpanel" aria-labelledby="v-pills-thiraiTrivia-tab" tabindex="3">
+                <h1 class="text-center m-3 p-3"><span class="tamil">jpppiu</span> - Trivia</h1>
+                    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-1 g-3 justify-content-center align-items-center align-content-center">
+                        <div class="col container_foto ">
+                            <div class="ver_mas text-center">
+                                <a href="">Register</a>
+                             </div>
+                             <article class="text-left">
+                                <h2>Video Morph</h2>
+                                <h4>Refine and Enhance </h4>
+                             </article>
+                             <img src="https://img-aws.ehowcdn.com/300x300/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
+                             
+                        </div>
+                        <div class="col container_foto ">
+                            <div class="ver_mas text-center">
+                                <a href="">Register</a>
+                             </div>
+                             <article class="text-left">
+                                <h2>Film mania</h2>
+                                <h4>Innovative & Entertaining</h4>
+                             </article>
+                             <img src="https://img-aws.ehowcdn.com/300x300/ds-img.studiod.com/Half_Dome_from_Glacier_Point0_1.jpg" alt="">
+                             
+                        </div>
+                        
+                        
+                    </div>
             </div>
 
         </div>
@@ -214,6 +312,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <!-- <script src="./js/sparkle.js"></script> -->
+    <script src="./js/pillChange.js"></script>
     
       
 </body>
