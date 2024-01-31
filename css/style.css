@@ -153,7 +153,9 @@ li
 }
 
 /* Custom CSS for the Events Section */
-
+#events {
+    margin: 50px;
+}
 
 .row .col .card {
     background-color: #000;
@@ -193,7 +195,7 @@ h1 {
 	background-color: rgba(93, 90, 57, 0.7);
 	padding: 0;
 	overflow: hidden;
-	max-width: 350px;
+	min-width: 350px;
 	margin: 5px;
     border-radius: 5px;
 }
