@@ -123,7 +123,7 @@ function anim()
 		star[i][2]-=star_speed; if(star[i][2]>z) { star[i][2]-=z; test=false; } if(star[i][2]<0) { star[i][2]+=z; test=false; }
 		star[i][3]=x+(star[i][0]/star[i][2])*star_ratio;
 		star[i][4]=y+(star[i][1]/star[i][2])*star_ratio;
-		if(star_x_save>0&&star_x_save<w&&star_y_save>0&&star_y_save<h&&test)
+		/*if(star_x_save>0&&star_x_save<w&&star_y_save>0&&star_y_save<h&&test)
 			{
 			context.lineWidth=(1-star_color_ratio*star[i][2])*2;
 			context.beginPath();
@@ -131,8 +131,19 @@ function anim()
 			context.lineTo(star[i][3],star[i][4]);
 			context.stroke();
 			context.closePath();
-			}
-		}
+			} */
+		
+
+		if (star_x_save > 0 && star_x_save < w && star_y_save > 0 && star_y_save < h && test) {
+            context.lineWidth = (1 - star_color_ratio * star[i][2]) * 2;
+            context.beginPath();
+            context.moveTo(star_x_save, star_y_save);
+            context.lineTo(star[i][3], star[i][4]);
+            context.stroke();
+            context.closePath();
+        }
+	}
+
 	timeout=setTimeout('anim()',fps);
 	}
 
@@ -217,10 +228,10 @@ function resize()
 	init();
 	}
 
-document.onmousemove=move;
-document.onkeypress=key_manager;
-document.onkeyup=release;
-document.onmousewheel=mouse_wheel; if(window.addEventListener) window.addEventListener('DOMMouseScroll',mouse_wheel,false);
+//document.onmousemove=move;
+//document.onkeypress=key_manager;
+//document.onkeyup=release;
+//document.onmousewheel=mouse_wheel; if(window.addEventListener) window.addEventListener('DOMMouseScroll',mouse_wheel,false);
 
 </script>
 
