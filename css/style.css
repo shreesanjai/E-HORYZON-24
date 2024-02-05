@@ -135,7 +135,7 @@ li
     align-items: center;
     justify-content: center;
     height: 75vh;
-    margin: 0;
+    margin-top: 15px;
     height: 85%;
      /* Optional background color */
 }
