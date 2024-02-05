@@ -11,7 +11,7 @@ body {
     padding: 0;
     background-color: black;
     color:#fff;
-    font-family: 'Dm Sans', 'Bamini';
+    font-family: 'Dm Sans', 'Bamini',sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -115,11 +115,6 @@ li
     filter: alpha(opacity=100);
 }
 
-/* Customize the toggle button color */
-/* .navbar-toggler {
-    background-color: #000;
-    border: none;
-} */
 
 /* Custom hamburger icon styling */
 /* .custom-toggler-icon {
@@ -141,6 +136,7 @@ li
     justify-content: center;
     height: 75vh;
     margin: 0;
+    height: 85%;
      /* Optional background color */
 }
 /* Style for the centered image */
@@ -149,7 +145,7 @@ li
     max-width: 100%;
     max-height: 100%;
     width: auto;
-    height: auto;
+    
 }
 
 /* Custom CSS for the Events Section */
