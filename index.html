@@ -10,45 +10,41 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" defer integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" defer integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-7v2k+J1W8FH5J5zl6Xgj33iSiNRsdB6I7vcvKoRQ2jj5mcw0SU9P//goJtN53HzhWGGFgpmu++EaHnWBEIyCtQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
     
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/card.css">
+
 
 </head>
-
-
-
 <body >
     <nav class="navbar navbar-expand-lg navbar-custom p-4">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="./img/logo.png" alt="E-Horyzon '24" width="100" height="">
             </a>
-            <!-- <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="toggler-icon top-bar"></span>
-                <span class="toggler-icon middle-bar"></span>
-                <span class="toggler-icon bottom-bar"></span>
-            </button> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
     
             <div class="justify-content-end" id="navbarText">
-                <ul class="navbar-nav justify-content-end">
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#events">Events</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
-                    
                 </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
     
-      <button id="goToTopBtn" title="Go to Top">
+    <button id="goToTopBtn" title="Go to Top">
         <span>&#9650;</span> <!-- Up arrow symbol -->
     </button>
     
-
     <section id="container">
         <iframe id="backgroundFrame" src="particles.html" frameborder="0"></iframe>
         <div class="center-container">
@@ -57,6 +53,7 @@
             <p class="below-centered-image hidden"></p>
         </div>
     </section>
+
     <!-- Events Section -->
     <section id="events">
         <!-- Categories Nav -->
@@ -110,7 +107,7 @@
                     <div class="row row-cols-1 row-cols-md-3 row-cols-lg-1 g-3 justify-content-center align-items-center align-content-center">
                         <div class="col container_foto ">
                             <div class="ver_mas text-center">
-                                <a href="">Register</a>
+                                <a href="./Events/Techtalk.html">Register</a>
                              </div>
                              <article class="text-left">
                                 <h2>Tech talk</h2>
@@ -364,61 +361,126 @@
     </section>
 
     <section id="about">
-        <h1 class="text-center">About</h1><br><br>
-
-        <div class="container-sm">
-            <h3><b>E-HORYZON’24 </b>: Igniting Innovation and Entrepreneurship</h3><hr>
-            <p id="para" class="display">
+        <h1 class="text-center">About</h1><br>
+    
+        <div class="container-fluid-sm m-5">
+            <h3 class="fs-5 fs-md-4 fs-lg-3"><b>E-HORYZON’24 </b>: Igniting Innovation and Entrepreneurship</h3>
+            <hr>
+            <p id="para" class="display fs-6 fs-md-5 fs-lg-4">
                 Welcome to <b>E-HORYZON’24</b>, an exciting initiative by the <b>Innovation & Entrepreneurship Forum (IEF)</b> at Kongu Engineering College. Our mission is to inspire innovation, empower students, and foster an entrepreneurial spirit.
             </p>
             <br>
-            <h4>What Is E-HORYZON’24?</h4>
+            <h4 class="fs-5 fs-md-4 fs-lg-3">What Is E-HORYZON’24?</h4>
             <ul>
-                <li id="para" class="display">
-                    <b>E-HORYZON’24</b> is an intra-college event organized by the <b>Engineering, Manufacturing, and Design Club (EMDC)</b> in collaboration with the <b>Innovation Council (IIC).</b>
+                <li id="para" class="display fs-6 fs-md-5 fs-lg-4">
+                    <b>E-HORYZON’24</b> is an intra-college event organized by the <b>Engineering, Manufacturing, and Design Club (EMDC)</b> in collaboration with the <b>Institution's Innovation Council (IIC).</b>
                 </li>
-                <li id="para" class="display">
+                <li id="para" class="display fs-6 fs-md-5 fs-lg-4">
                     It’s a dynamic platform where students can showcase their talents, creativity, and problem-solving abilities.
                 </li>
             </ul><br>
-            <h4>Key Objectives :</h4>
+            <h4 class="fs-5 fs-md-4 fs-lg-3">Key Objectives :</h4>
             <ol>
-                <li id="para" class="display">
+                <li id="para" class="display fs-6 fs-md-5 fs-lg-4">
                     <b>Entrepreneurship Awareness : </b> Ignite your entrepreneurial spark! Explore real-world challenges and discover your passion for impactful solutions.
                 </li>
-                <li id="para" class="display">
+                <li id="para" class="display fs-6 fs-md-5 fs-lg-4">
                     <b>Creating an Entrepreneurial Culture : </b> E-HORYZON’24 encourages risk-taking, creativity, and resilience.
                 </li>
-                <li id="para" class="display">
+                <li id="para" class="display fs-6 fs-md-5 fs-lg-4">
                     <b>Skill Development and Opportunities : </b> Gain practical skills, network with experts, and explore diverse career paths.
                 </li>
-                <li id="para" class="display">
+                <li id="para" class="display fs-6 fs-md-5 fs-lg-4">
                     <b>Turning Ideas into Prototypes : </b> Transform abstract concepts into tangible solutions.
                 </li>
             </ol><br>
-
-            <h4>Get Involved!</h4>
-            <ul >
-                <li id="para" class="display">
+    
+            <h4 class="fs-5 fs-md-4 fs-lg-3">Get Involved!</h4>
+            <ul>
+                <li id="para" class="display fs-6 fs-md-5 fs-lg-4">
                     <b>Participate :</b> Engage in hackathons, workshops, and competitions.
                 </li>
-                <li id="para" class="display">
-                    <b>Collaborate :</b> Connect with peers and mentors .
+                <li id="para" class="display fs-6 fs-md-5 fs-lg-4">
+                    <b>Collaborate :</b> Connect with peers and mentors.
                 </li>
-                <li id="para" class="display">
+                <li id="para" class="display fs-6 fs-md-5 fs-lg-4">
                     <b>Learn :</b> Attend talks and skill-building sessions.
                 </li>
-                <li id="para" class="display">
+                <li id="para" class="display fs-6 fs-md-5 fs-lg-4">
                     <b>Celebrate Innovations :</b> Join us on this exciting journey!
                 </li>
             </ul>
         </div>
-    </section>    
+    </section>
+        
 
     <section id="contact">
         <h1 class="text-center">Contact</h1><br>
-    </section>
+        <div class="container m-6">
+            <h2 style="font-size: x-large;" >Faculty CoOrdinators</h2><br>
+            
+            <div class="d-flex justify-content-center align-items-center flex-wrap">
+                <div class="text-center">
+                    <h4>DR.R.PARAMESHWARAN</h4>
+                    <b>PRESIDENT IIC@KEC</b>
+                </div>
+            </div><br><br>
+            <div class="row row-gap-4">
+                <div class="col-md-6">
+                    <div class="text-center">
+                        <h4>DR.S.PRAVEEN KUMAR</h4>
+                        <b>9500575414</b>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="text-center">
+                        <h4>MS.S.VIJAYASHANTHY</h4>
+                        <b>8144899699</b>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="container mt-2"><br><br>
+            <h2 style="font-size: x-large;">Student CoOrdinators</h2><br>
+            <div class="row row-gap-4">
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <h4>HARISHRI S</h4>
+                        <b>SECRETARY-EMDC</b>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <h4>SUDARSAN K</h4>
+                        <b>CHAIRMAN-IIC@KEC</b>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <h4>VIGNESH K</h4>
+                        <b>TREASURER-IIC@KEC</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white"><i class="fab fa-facebook"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white"><i class="fab fa-twitter"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white"><i class="fab fa-instagram"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white"><i class="fab fa-linkedin"></i></a></li>
+            <li class="nav-item"><a href="mailto:your@email.com" class="nav-link px-2 text-white"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+    </footer>
+    
+    
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
