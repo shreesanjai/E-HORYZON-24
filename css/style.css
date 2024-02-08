@@ -162,6 +162,13 @@ li
     line-height: 1;
 }
 
+@media only screen and (max-width: 600px) {
+    .above-centered-image,
+.below-centered-image {
+
+    top: 35%;}
+}
+
 .hidden {
     display: none; /* Hide initially */
 }
