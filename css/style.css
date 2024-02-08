@@ -167,7 +167,7 @@ li
 
 .below-centered-image {
     position: absolute;
-    top: 67%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0; /* Reset margin */
@@ -182,10 +182,10 @@ li
 
 @media only screen and (max-width: 600px) {
     .above-centered-image {
-        top: 33%;
+        top: 35%;
     }
     .below-centered-image {
-        top: 70%;
+        top: 61%;
     }
 
 }
@@ -530,7 +530,7 @@ h1 {
     right: 20px;
     display: none;
     border-radius: 100%;
-    z-index: 10;
+    z-index: 0;
   }
 
 
