@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400&display=swap');
+
 @font-face {
     font-family: 'Bamini';
     src: url('../font/BAMINI-Tamil51.ttf') format('truetype');
@@ -139,7 +141,7 @@ li
     justify-content: center;
     height: 75vh;
     margin-top: 15px;
-    height: 85%;
+    height: 90%;
     /* Optional background color */
 }
 
@@ -150,23 +152,42 @@ li
     width: auto;
 }
 
-.above-centered-image,
-.below-centered-image {
+.above-centered-image {
     position: absolute;
-    top: 30%;
+    top: 33%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0; /* Reset margin */
     text-align: center; /* Center align text */
     opacity: 1; /* Initially hidden */
     line-height: 1;
+    font-family: 'Cinzel';
+    width: 100%;
+}
+
+.below-centered-image {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0; /* Reset margin */
+    text-align: center; /* Center align text */
+    opacity: 1; /* Initially hidden */
+    line-height: 1;
+    
+}
+.below-centered-image h1 {
+    font-family: 'Cinzel';
 }
 
 @media only screen and (max-width: 600px) {
-    .above-centered-image,
-.below-centered-image {
+    .above-centered-image {
+        top: 33%;
+    }
+    .below-centered-image {
+        top: 70%;
+    }
 
-    top: 35%;}
 }
 
 .hidden {
@@ -539,6 +560,16 @@ b {
     color: #ffc900;
     text-decoration: none;
 }
+
+.btn {
+    background-color: goldenrod;
+    border: none;
+    color: black;
+    margin: 8px;
+    padding: 10px 14px;
+    font-size: 16px;
+    cursor: pointer;
+  }
 
 /*footer */
 
