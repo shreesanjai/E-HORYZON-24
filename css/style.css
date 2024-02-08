@@ -241,7 +241,7 @@ h1 {
 }
 
 .container_foto {
-	background-color: rgba(122, 205, 205, 0.7);
+	background-color: rgba(220, 255, 255, 0.7);
 	padding: 0;
 	overflow: hidden;
 	max-width: 350px;
@@ -270,7 +270,7 @@ h1 {
 	width: 100%;
 	top: 0;
 	left: 0;
-	opacity: 0.4;
+	opacity: 0.7;
 	-webkit-transition: all 4s ease;
 	-moz-transition: all 4s ease;
 	-o-transition: all 4s ease;
@@ -393,7 +393,7 @@ h1 {
     width: 100%;
     top: 0;
     left: 0;
-    opacity: 0.4;
+    opacity: 0.7;
     -webkit-transition: all 4s ease;
     -moz-transition: all 4s ease;
     -o-transition: all 4s ease;
