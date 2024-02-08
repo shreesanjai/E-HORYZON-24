@@ -154,7 +154,7 @@ li
 
 .above-centered-image {
     position: absolute;
-    top: 33%;
+    top: 31%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0; /* Reset margin */
@@ -167,7 +167,7 @@ li
 
 .below-centered-image {
     position: absolute;
-    top: 70%;
+    top: 73%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0; /* Reset margin */
@@ -180,14 +180,47 @@ li
     font-family: 'Cinzel';
 }
 
-@media only screen and (max-width: 600px) {
+.iic-org {
+    width:25% ;
+    height:25%;
+}
+.emdc-org {
+    width:12% ;
+    height:12%;
+}
+
+
+@media only screen and (max-width: 488px ) {
     .above-centered-image {
         top: 35%;
     }
     .below-centered-image {
-        top: 61%;
+        top: 64%;
     }
-
+    .iic-org {
+        width:50% ;
+        height:50%;
+    }
+    .emdc-org {
+        width:30% ;
+        height:30%;
+    }
+}
+@media only screen and (min-width:489px ) and  (max-width: 780px) {
+    .above-centered-image {
+        top: 35%;
+    }
+    .below-centered-image {
+        top: 70%;
+    }
+    .iic-org {
+        width:40% ;
+        height:40%;
+    }
+    .emdc-org {
+        width:20% ;
+        height:20%;
+    }
 }
 
 .hidden {
