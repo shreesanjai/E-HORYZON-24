@@ -176,10 +176,10 @@ li
 
 
 /* Apply transition for smooth animation */
-.above-centered-image,
+/* .above-centered-image,
 .below-centered-image {
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
-}
+} */
 
 /* Custom CSS for the Events Section */
 #events {
@@ -201,7 +201,7 @@ li
 .section-head pre{
     font-family: 'Protest Strike', sans-serif;
     color: #000;
-    background-color: goldenrod;
+    background-color: #ffc900;
 }
 
 
@@ -241,7 +241,7 @@ h1 {
 }
 
 .container_foto {
-	background-color: rgba(93, 90, 57, 0.7);
+	background-color: rgba(122, 205, 205, 0.7);
 	padding: 0;
 	overflow: hidden;
 	max-width: 350px;
@@ -551,23 +551,23 @@ hr.hr-text {
   
   .footer a {
     margin: 0 10px;
-    transition: color 0.3s ease;
+    transition: color 1s ease-in;
     color: #fff;
   }
   
-  .footer #twitter {
+  .footer #twitter:hover {
     color: #1DA1F2;
   }
-  .footer #instagram {
+  .footer #instagram:hover {
     color: #E1306C;
   }
-  .footer #linked {
+  .footer #linked:hover {
     color: #0a66c2;
   }
-  .footer #facebook {
+  .footer #facebook:hover {
     color: #0a66c2;
   }
-  .footer #gmail {
+  .footer #gmail:hover {
     color: #b23121;
   }
   
