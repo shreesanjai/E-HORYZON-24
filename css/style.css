@@ -241,7 +241,7 @@ h1 {
 }
 
 .container_foto {
-	background-color: rgba(220, 255, 255, 0.7);
+	background-color: rgba(72, 72, 72, 0.7);
 	padding: 0;
 	overflow: hidden;
 	max-width: 350px;
@@ -270,12 +270,12 @@ h1 {
 	width: 100%;
 	top: 0;
 	left: 0;
-	opacity: 0.7;
-	-webkit-transition: all 4s ease;
-	-moz-transition: all 4s ease;
-	-o-transition: all 4s ease;
-	-ms-transition: all 4s ease;
-	transition: all 4s ease;
+	opacity: 0.8;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	transition: all 2s ease;
 }
 
 .ver_mas {
@@ -393,12 +393,12 @@ h1 {
     width: 100%;
     top: 0;
     left: 0;
-    opacity: 0.7;
-    -webkit-transition: all 4s ease;
-    -moz-transition: all 4s ease;
-    -o-transition: all 4s ease;
-    -ms-transition: all 4s ease;
-    transition: all 4s ease;
+    opacity: 0.8;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
     z-index: 1; /* Lower z-index to make it appear below the article */
 }
 
