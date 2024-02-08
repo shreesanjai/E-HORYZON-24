@@ -526,17 +526,19 @@ b {
 }
 
 #about {
-    font-size:large;
+
     font-family: 'Poppins';
 
 }
 
-hr.hr-text {
-    position: relative;
-      border: none;
-      height: 1px;
-      background: #000;
-  }
+.phone {
+    color: #ffc900;
+}
+
+.phone a {
+    color: #ffc900;
+    text-decoration: none;
+}
 
 /*footer */
 
