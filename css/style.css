@@ -299,6 +299,11 @@ li
      /* Adjust the scale factor as needed */
      transition: transform .5s;
 }
+.nav-pills .nav-link img:hover {
+    transform: scale(1.1);
+     /* Adjust the scale factor as needed */
+     transition: transform .4s;
+}
 
 
 
