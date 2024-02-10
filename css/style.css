@@ -192,17 +192,17 @@ li
 }
 
 .iic-org {
-    width:25% ;
-    height:25%;
+    width:150px ;
+    height:106.48px;
 
 }
 .emdc-org {
-    width:12% ;
-    height:12%;
+    width:90px ;
+    height:99.74px;
 }
 
 
-@media only screen and (max-width: 488px ) {
+/* @media only screen and (max-width: 488px ) {
     .above-centered-image {
         top: 35%;
     }
@@ -249,7 +249,7 @@ li
         width:40% ;
         height:40%;
     }
-}
+} */
 
 
 .hidden {
