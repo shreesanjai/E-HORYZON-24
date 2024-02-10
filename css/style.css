@@ -631,6 +631,7 @@ h1 {
 
 #para
 {
+    text-align: justify;
 
     /* font-weight: 100; */
     color: #fff;
