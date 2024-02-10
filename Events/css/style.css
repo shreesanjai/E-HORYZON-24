@@ -146,7 +146,7 @@ li
 --------------------------------------------------------------*/
 #hero {
     margin-top:20px;
-    background: url("../Image/main.jpg") top center;
+    background-color: #000;
     background-size: cover;
     position: relative;
     margin-bottom: -70px;

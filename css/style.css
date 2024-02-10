@@ -182,13 +182,12 @@ li
 
 .slogan {
     position: absolute;
-    top: 73%;
+    top: 120%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0; /* Reset margin */
     text-align: center; /* Center align text */
-    opacity: 1; /* Initially hidden */
-    line-height: 1;
+   
     
 }
 
@@ -211,12 +210,12 @@ li
         top: 65%;
     }
     .iic-org {
-        width:85% ;
-        height:85%;
+        width:90% ;
+        height:90%;
     }
     .emdc-org {
-        width:45% ;
-        height:45%;
+        width:50% ;
+        height:50%;
     }
 }
 @media only screen and (min-width: 781px )and (max-width: 1025px ) {
@@ -325,7 +324,11 @@ li
      /* Adjust the scale factor as needed */
      transition: transform .4s;
 }
-
+.nav-pills .nav-link img:hover {
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgb(255, 0, 0); /* Add sparkle effect */
+    transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+  }
 
 
 .tab-content {
