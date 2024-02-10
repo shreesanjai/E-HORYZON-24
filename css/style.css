@@ -282,6 +282,27 @@ li
     margin: 50px;
 }
 
+@media screen and (max-width:600px)
+{
+    #events {
+        margin: 20px;
+    }
+    #rules {
+        margin: 20px;
+    }
+    #about {
+        margin: 20px;
+    }
+    #contact {
+        margin: 20px;
+    }
+    #footer {
+        margin: 20px;
+    }
+}
+
+
+
 .section-head pre{
     font-family: 'Protest Strike', sans-serif;
     color: #000;
@@ -656,14 +677,19 @@ b {
     padding: 10px;
   }
   
+  .footer-links a:hover {
+    transform: scale(1.4);
+    transition: transform .3s ease-in-out;
+  }
+
   .footer a {
     margin: 0 5px;
     transition: color 1s ease-in;
-    color: #fff;
+    color: #b6b6b6;
   }
   
   .footer #twitter:hover {
-    color: #1DA1F2;
+    color: #fff;
   }
   .footer #instagram:hover {
     color: #E1306C;
@@ -690,7 +716,6 @@ b {
     }
   
     .footer #twitter,
-    .footer #linked,
     .footer #facebook,
     .footer #gmail {
       width: 40px; /* Adjust width of icons for better spacing */
@@ -700,12 +725,16 @@ b {
         width: 80px;
         height: auto
     }
+    .footer #linked {
+        width: 60px;
+        height: auto
+    }
   }
   
 
   .footer-links-right p {
     display: flex;
     justify-content: left;
-    margin:1% 0% 0% 5%;
+    margin:0% 0% 3% 5%;
     color: white;
 }
