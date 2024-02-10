@@ -15,7 +15,7 @@ body {
     padding: 0;
     background-color: black;
     color:#fff;
-    font-family: 'Dm Sans', 'Bamini',sans-serif;
+    font-family: 'Dm Sans',sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -292,6 +292,12 @@ li
 .row .col .card {
     background-color: #000;
     color: #fff;
+}
+
+.nav-pills .nav-link.active img {
+    transform: scale(1.4);
+     /* Adjust the scale factor as needed */
+     transition: transform .5s;
 }
 
 
@@ -642,11 +648,11 @@ b {
     justify-content: space-evenly;
     align-items: center;
     background-color: #000;
-    padding: 20px;
+    padding: 10px;
   }
   
   .footer a {
-    margin: 0 10px;
+    margin: 0 5px;
     transition: color 1s ease-in;
     color: #fff;
   }
@@ -694,7 +700,7 @@ b {
 
   .footer-links-right p {
     display: flex;
-    justify-content: right;
-    margin:0% 8% 2% 0%;
+    justify-content: left;
+    margin:1% 0% 0% 5%;
     color: white;
 }
