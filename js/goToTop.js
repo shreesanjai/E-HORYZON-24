@@ -26,3 +26,11 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+window.onload = function() {
+  var element = document.getElementById("Home");
+  if(element) {
+      element.scrollIntoView();
+  }
+};
