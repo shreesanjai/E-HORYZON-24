@@ -180,9 +180,22 @@ li
     font-family: 'Cinzel';
 }
 
+.slogan {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0; /* Reset margin */
+    text-align: center; /* Center align text */
+    opacity: 1; /* Initially hidden */
+    line-height: 1;
+    
+}
+
 .iic-org {
     width:25% ;
     height:25%;
+
 }
 .emdc-org {
     width:12% ;
@@ -195,23 +208,23 @@ li
         top: 35%;
     }
     .below-centered-image {
-        top: 64%;
+        top: 65%;
     }
     .iic-org {
-        width:50% ;
-        height:50%;
+        width:85% ;
+        height:85%;
     }
     .emdc-org {
-        width:30% ;
-        height:30%;
+        width:45% ;
+        height:45%;
     }
 }
-@media only screen and (min-width:489px ) and  (max-width: 780px) {
+@media only screen and (min-width: 781px )and (max-width: 1025px ) {
     .above-centered-image {
-        top: 35%;
+        top: 31%;
     }
     .below-centered-image {
-        top: 70%;
+        top: 73%;
     }
     .iic-org {
         width:40% ;
@@ -222,6 +235,23 @@ li
         height:20%;
     }
 }
+@media only screen and (min-width:489px ) and  (max-width: 780px) {
+    .above-centered-image {
+        top: 35%;
+    }
+    .below-centered-image {
+        top: 73%;
+    }
+    .iic-org {
+        width:70% ;
+        height:70%;
+    }
+    .emdc-org {
+        width:40% ;
+        height:40%;
+    }
+}
+
 
 .hidden {
     display: none; /* Hide initially */
@@ -662,3 +692,9 @@ b {
   }
   
 
+  .footer-links-right p {
+    display: flex;
+    justify-content: right;
+    margin:0% 8% 2% 0%;
+    color: white;
+}
