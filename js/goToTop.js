@@ -29,8 +29,22 @@ function backToTop() {
 
 
 window.onload = function() {
-  var element = document.getElementById("Home");
-  if(element) {
-      element.scrollIntoView();
+  var element;
+  var url = window.location.href;
+  
+  // Check if the URL contains an anchor
+  if (url.includes("#")) {
+    // Extract the anchor from the URL
+    var anchor = url.substring(url.indexOf("#") + 1);
+    // Find the corresponding element
+    element = document.getElementById(anchor);
+  } else {
+    // If no anchor is specified, scroll to the default section
+    element = document.getElementById("Home");
+  }
+  
+  // Scroll to the element if found
+  if (element) {
+    element.scrollIntoView();
   }
 };

@@ -206,6 +206,11 @@ li
     margin-left: 2%;
 }
 
+@media only screen and (max-width: 600px) {
+    .center-container {
+        height: 80vh; /* Decrease the height for smaller screens */
+    }
+}
 
 /* @media only screen and (max-width: 488px ) {
     .above-centered-image {
@@ -305,6 +310,19 @@ li
     }
 }
 
+.hr-rule1{
+    display: block;
+    height: 0.1px;
+    background-color: #ffc400;
+    border: 1px solid #ffc900;
+    width:0%;
+    margin: auto;
+    margin-bottom: 1px;
+    transition: width 0.1s;
+}
+.nav-item:hover .hr-rule1{
+    width: 80%;
+}
 
 
 .section-head pre{
