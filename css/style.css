@@ -187,8 +187,10 @@ li
     margin: 0; /* Reset margin */
     text-align: center; /* Center align text */
     width: 100%;
-   
-    
+       
+}
+.slogan h1 {
+    color: #ffc900;
 }
 
 .iic-org {
@@ -625,6 +627,7 @@ h1 {
     display: none;
     border-radius: 100%;
     z-index: 1;
+    background-color: #ffc900;
   }
 
 
@@ -656,7 +659,7 @@ b {
 }
 
 .btn {
-    background-color: goldenrod;
+    background-color: #ffc900;
     border: none;
     color: black;
     margin: 8px;
