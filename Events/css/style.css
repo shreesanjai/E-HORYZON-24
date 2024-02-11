@@ -2094,3 +2094,28 @@ overflow: hidden;
               transform: translateY(100%);
     }
   }
+
+
+.phone {
+    color: #ffc900;
+}
+
+.phone a {
+    color: #ffc900;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: goldenrod;
+    border: none;
+    color: black;
+    margin: 8px;
+    padding: 10px 14px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.btn:hover {
+  color: goldenrod;
+  background-color: black;
+}
