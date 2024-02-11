@@ -48,7 +48,12 @@ li
         color: #ffc900;
 
 } */
-
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
 .navbar-custom a {
     color: #ffc900 !important;
 }
@@ -118,6 +123,32 @@ li
     filter: alpha(opacity=100);
 }
 
+#navbarText {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media (max-width: 600px) {
+    .navbar-nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+    .centi {
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-brand img{
+     display: none;
+    }
+    
+    #navbarText {
+        display: flex;
+        justify-self: center;
+    }
+  }
 
 /* Custom hamburger icon styling */
 /* .custom-toggler-icon {
@@ -291,10 +322,12 @@ transition: opacity 1s;
     width:0%;
     margin: auto;
     margin-bottom: 1px;
-    transition: width 0.1s;
+    transition: width 0.6s;
+    opacity: 0;
 }
 .nav-item:hover .hr-rule1{
     width: 80%;
+    opacity: 1;
 }
 
 
