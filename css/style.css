@@ -677,7 +677,7 @@ b {
   }
   
   .footer-links a:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
     transition: transform .3s ease-in-out;
   }
 
@@ -691,7 +691,7 @@ b {
     color: #fff;
   }
   .footer #instagram:hover {
-    color: #E1306C;
+    color:#cc127b;
   }
   .footer #linked:hover {
     color: #0a66c2;
