@@ -216,6 +216,35 @@ li
     display: none; /* Hide initially */
 }
 
+.section{
+opacity: 0; /* initially hidden */
+transition: opacity 1s; 
+}
+
+.visible {
+    opacity: 1;
+}
+
+.highlight {
+    display: inline-block;
+ /* Set your desired background color */
+    color: whitesmoke;
+    margin: 0 20px 0 20px;
+    font-family: 'Protest Strike';
+    letter-spacing: 5px;
+    border-bottom: #fff solid 0.1px;
+}
+
+@media screen and (max-width: 600px) {
+    .highlight {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .highlight b {
+      display: block;
+    }
+  }
 
 /* Custom CSS for the Events Section */
 #events {
@@ -603,8 +632,6 @@ h1 {
 #para
 {
     text-align: justify;
-
-    /* font-weight: 100; */
     color: #fff;
     
 }
@@ -616,6 +643,7 @@ b {
 #about {
 
     font-family: 'Poppins';
+    
 
 }
 
