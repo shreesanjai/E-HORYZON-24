@@ -741,8 +741,9 @@ b {
   }
   
 
-  .footer-links-right p {
+  .footer-links-left p {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     color: white;
+    margin-left: 50px;
 }
