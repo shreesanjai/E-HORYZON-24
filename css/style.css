@@ -322,7 +322,7 @@ li
 .nav-pills .nav-link.active img {
     transform: scale(1.3);
      /* Adjust the scale factor as needed */
-     transition: transform .5s;
+     transition: transform 1s;
 }
 .nav-pills .nav-link img:hover {
     transform: scale(1.3);
@@ -403,7 +403,7 @@ h1 {
 }
 
 .ver_mas {
-	background-color: #FEB66C;
+	background-color: #ffc900;
 	position: absolute;
 	width: 100%;
 	height: 70px;
@@ -528,7 +528,7 @@ h1 {
 
 
 .ver_mas{
-	background-color: #ffd53d;
+	background-color: #ffd12c;
 	position: absolute;
 	width: 100%;
 	height: 80px;
