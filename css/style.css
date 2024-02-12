@@ -758,4 +758,11 @@ b {
         height: auto
     }
   }
+
+  .copyright-text {
+    font-size:medium;
+    color:#fff;
+    text-decoration: none;
+    border-bottom: solid  thin white;
+  }
   
