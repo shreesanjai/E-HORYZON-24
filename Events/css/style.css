@@ -2132,7 +2132,7 @@ overflow: hidden;
 }
 
 .btn {
-    background-color: goldenrod;
+    background-color: #ffc900;
     border: none;
     color: black;
     margin: 8px;
@@ -2142,7 +2142,7 @@ overflow: hidden;
   }
 
 .btn:hover {
-  color: goldenrod;
+  color: #ffc900;
   background-color: black;
 }
 
