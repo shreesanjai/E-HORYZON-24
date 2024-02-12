@@ -40,7 +40,7 @@ window.onload = function() {
     element = document.getElementById(anchor);
   } else {
     // If no anchor is specified, scroll to the default section
-    element = document.getElementById("Home");
+    element = document.getElementById("Home"); // Change "Home" to "home"
   }
   
   // Scroll to the element if found
