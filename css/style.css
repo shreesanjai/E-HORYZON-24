@@ -124,20 +124,17 @@ li
     filter: alpha(opacity=100);
 }
 
-#navbarText {
-    display: flex;
-    justify-content: flex-end;
-}
+
 .navbar-brand img{
-    max-width: 100px;
+    max-width: 90px;
     width: 100%;
    }
 
 
-@media (max-width: 413px) {
+/* @media (max-width: 413px) {
     
     .navbar-brand img{
-     width: 100%;
+     display: none;
     }
     .navbar-brand {
         display:flex ;
@@ -156,21 +153,9 @@ li
         display: flex;
         justify-content: center;
     }
-  }
+  } */
 
-/* Custom hamburger icon styling */
-/* .custom-toggler-icon {
-    width: 30px;
-    height: 3px;
-    background-color: #ffc900;
-    display: block;
-    margin: 6px auto;
-    transition: background-color 0.3s ease;
-} */
-/* 
-.navbar-toggler.collapsed .custom-toggler-icon {
-    background-color: #ffc900; 
-} */
+
 
 .center-container {
     position: relative;

@@ -30,7 +30,14 @@ li
 }
 
 .navbar-nav .nav-item {
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left:10px;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 .navbar-toggler {
@@ -94,6 +101,10 @@ li
   filter: alpha(opacity=100);
 }
 
+.navbar-brand img{
+  max-width: 90px;
+  width: 100%;
+ }
 
 /*------------------------------------------------------------
   #head content
