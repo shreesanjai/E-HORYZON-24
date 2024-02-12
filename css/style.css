@@ -59,7 +59,8 @@ li
 }
 
 .navbar-nav .nav-item {
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left:10px;
 }
 
 .navbar-toggler {
@@ -150,6 +151,10 @@ li
     #navbarText {
         display: flex;
         justify-self: center;
+    }
+    ul.navbar-nav li{
+        display: flex;
+        justify-content: center;
     }
   }
 
