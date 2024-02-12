@@ -127,23 +127,26 @@ li
     display: flex;
     justify-content: flex-end;
 }
+.navbar-brand img{
+    max-width: 100px;
+    width: 100%;
+   }
 
 
-@media (max-width: 600px) {
-    .navbar-nav {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: row;
+@media (max-width: 413px) {
+    
+    .navbar-brand img{
+     width: 100%;
     }
-    .centi {
-        display: flex;
+    .navbar-brand {
+        display:flex ;
         justify-content: center;
     }
-    .navbar-brand img{
-     display: none;
+    .navbar>.container-fluid {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    
     #navbarText {
         display: flex;
         justify-self: center;
