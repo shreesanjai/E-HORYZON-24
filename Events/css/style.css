@@ -2150,4 +2150,9 @@ overflow: hidden;
   font-size:medium;
   color:#fff;
   margin: 0;
+  border-bottom: solid thin white;
+}
+.copyright-text:hover {
+  text-decoration: none;
+  color: #fff;
 }
