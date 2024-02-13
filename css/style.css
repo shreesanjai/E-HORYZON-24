@@ -7,7 +7,12 @@
     font-family: 'Bamini';
     src: url('../font/BAMINI-Tamil51.ttf') format('truetype');
 
-  }
+}
+@font-face {
+    font-family: 'Cinzel';
+    src: url('../font/Cinzel-SemiBold.ttf') format('truetype');
+
+}
 
 
 body {
@@ -305,6 +310,14 @@ transition: opacity 1s;
     #footer {
         margin: 20px;
     }
+}
+
+.countdown {
+    font-size: 24px;
+    text-align: center;
+    margin: 30px;
+    font-family: 'DM Sans';
+    color: #fff;
 }
 
 .hr-rule1{
