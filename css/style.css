@@ -355,7 +355,7 @@ transition: opacity 1s;
      transition: transform 1s;
 }
 .nav-pills .nav-link img:hover {
-    transform: scale(1.3);
+    transform: scale(1.5);
      /* Adjust the scale factor as needed */
      transition: transform .5s;
 }
@@ -783,3 +783,19 @@ b {
     border-top: 1px solid #fff; /* Adjust thickness as needed */
   }
   
+/* Add CSS for pop-up animation */
+@keyframes popUp {
+    0% { transform: translateY(0); opacity: 1; }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+
+  .nav-item:nth-child(1) { animation: popUp 1s 0s infinite alternate; }
+  .nav-item:nth-child(2) { animation: popUp 1s 0.2s infinite alternate; }
+  .nav-item:nth-child(3) { animation: popUp 1s 0.4s infinite alternate; }
+  .nav-item:nth-child(4) { animation: popUp 1s 0.6s infinite alternate; }
+  .nav-item:nth-child(5) { animation: popUp 1s 0.8s infinite alternate; }
+  .nav-item:nth-child(6) { animation: popUp 1s 1s infinite alternate; }
+  .nav-item:nth-child(7) { animation: popUp 1s 1.2s infinite alternate; }
+  
+
