@@ -832,3 +832,81 @@ b {
     content: "•"; /* Round dot character */
     margin-right: 15px; /* Adjust the space between dots and items */
   }
+
+/* Countdown */
+.countdown-wrapper {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    top: 1%;
+    text-align: center;
+    color: #ddd;
+  }
+  
+  .countdown-wrapper h1 {
+    font-size: 2rem;
+    font-weight: 100;
+
+
+    text-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.5);
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .countdown div {
+    width: 4rem;
+    height: 5rem;
+    margin: 0 2rem 1rem 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.8rem 2.5rem rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+  
+  .countdown div::after {
+    content: attr(data-content);
+    font-size: 1rem;
+    font-weight: 400;
+    position: absolute;
+    bottom: -2rem;
+  }
+  
+  .content-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media only screen and (max-width: 640px) {
+    .countdown-wrapper {
+      width: 70%; /* Adjust width for smaller screens */
+       /* Adjust position from top */
+    }
+    
+    .countdown-wrapper h1 {
+      font-size: 1rem; /* Decrease font size for heading */
+      margin-bottom: .5rem; /* Adjust margin bottom */
+    }
+    
+    .countdown div {
+      width: 0.5rem; /* Decrease width of countdown items */
+      height: 2rem; /* Decrease height of countdown items */
+ /* Adjust margin */
+      font-size: 1.5rem; /* Decrease font size */
+    }
+    
+    .countdown div::after {
+      font-size: 10px; /* Decrease font size for the label */
+      bottom: -1.5rem; /* Adjust position from bottom */
+    }
+  }
+  
