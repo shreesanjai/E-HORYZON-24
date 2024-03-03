@@ -296,6 +296,13 @@ transition: opacity 1s;
     margin: 50px;
 }
 
+@media screen and (max-width:575px)
+{
+    #accordion-content {
+        width: 900px;
+    }
+}
+
 @media screen and (max-width:600px)
 {
     #events {
@@ -316,22 +323,20 @@ transition: opacity 1s;
     #trophy {
         margin: 20px;
     }
-    #accordion-content {
-        width: 300px;
-    }
+    
 }
 #accordion-content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    width: 250px; /* Adjust the width as needed */
+    width: 300px; /* Adjust the width as needed */
 }
 
 .arrow
 {
     color: white;
-    float: right;
+    float: inline-end;
 }
 
 .countdown {
