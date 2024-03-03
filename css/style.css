@@ -292,6 +292,9 @@ transition: opacity 1s;
 #footer {
     margin: 50px;
 }
+#trophy {
+    margin: 50px;
+}
 
 @media screen and (max-width:600px)
 {
@@ -308,6 +311,9 @@ transition: opacity 1s;
         margin: 20px;
     }
     #footer {
+        margin: 20px;
+    }
+    #trophy {
         margin: 20px;
     }
 }
