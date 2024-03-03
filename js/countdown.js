@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const countdownText = document.querySelector(".countdown-text");
 
   const interval = setInterval(() => {
-    const deadline = new Date(2024, 2, 5, 23, 59, 59);
+    const deadline = new Date(2024, 2, 6, 23, 59, 59);
 
     const current = new Date();
 
