@@ -316,6 +316,22 @@ transition: opacity 1s;
     #trophy {
         margin: 20px;
     }
+    #accordion-content {
+        width: 300px;
+    }
+}
+#accordion-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 300px; /* Adjust the width as needed */
+}
+
+.arrow
+{
+    color: white;
+    float: right;
 }
 
 .countdown {
